@@ -34,13 +34,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/balck_view"
         android:layout_marginTop="15dp"/>
-    <ImageView
-        android:id = "@+id/sideimage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/plusimage_button1"
-        app:layout_constraintBottom_toBottomOf="@+id/plusimage_button"
-        app:layout_constraintRight_toRightOf="@+id/plusimage_button" />
     <!---봇이름-->
     <TextView
         android:id = "@+id/bot_name"
