@@ -25,7 +25,7 @@
             android:layout_weight="2"
             android:text="\<Edit bot"
             android:textColor="#FFFFFF"
-            android:textSize="12pt" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -37,7 +37,7 @@
             android:gravity="right"
             android:text="Bot name"
             android:textColor="#4AC9FF"
-            android:textSize="12pt" />
+            android:textSize="25sp" />
 
 
     </LinearLayout>
@@ -102,7 +102,7 @@
             android:text="봇이름"
             android:layout_marginRight="10dp"
             android:textColor="#FFFFFF"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -146,7 +146,7 @@
             android:gravity="center_vertical"
             android:text="discription"
             android:textColor="#FFFFFF"
-            android:textSize="8pt"
+            android:textSize="18sp"
             tools:ignore="DuplicateIds" />
     </LinearLayout>
 
@@ -160,7 +160,7 @@
         android:layout_weight="3"
         android:text="____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________"
         android:textColor="#FFFFFF"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
 
     <FrameLayout
@@ -212,7 +212,7 @@
                     android:layout_weight="10"
                     android:gravity="center_vertical"
                     android:text="ID"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="10sp"
                     android:textColor="#FFFFFF"
                     android:textSize="8pt" />
             </LinearLayout>
@@ -244,7 +244,7 @@
                     android:layout_weight="8"
                     android:gravity="center_vertical"
                     android:text="Token"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="10sp"
                     android:textColor="#FFFFFF"
                     android:textSize="8pt" />
 
@@ -256,7 +256,7 @@
                     android:layout_weight="2"
                     android:text="Reveal"
                     android:textColor="#4AC9FF"
-                    android:textSize="7pt" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <Space
