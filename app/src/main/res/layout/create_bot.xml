@@ -11,7 +11,8 @@
         android:id = "@+id/balck_view"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:background="#1F2126"/>
+        android:background="#1F2126"
+        tools:ignore="MissingConstraints" />
     <!---버튼으로 바꿀 필요가 있어보임-->
     <TextView
         android:id="@+id/gotoback"
