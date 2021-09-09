@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
             tools:itemCount="5"
-            tools:listitem="@drawable/bot_image" />
+            tools:listitem="@layout/bot_image" />
     </LinearLayout>
 
 
