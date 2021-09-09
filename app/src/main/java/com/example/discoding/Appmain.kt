@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.discoding.R
 
 class Appmain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
