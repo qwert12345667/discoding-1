@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.discoding.R
 
 class Explain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
