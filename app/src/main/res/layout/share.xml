@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#36393F">
+
+    <LinearLayout
+        android:layout_weight="0.0625"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:weightSum="3">
+        <!-- 위에 메인 버튼-->
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text = "hosting"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:background="@drawable/mainbutton"
+            />
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text = "main"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:background="@drawable/mainbutton"/>
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#4AC9FF"
+            android:textSize="18sp"
+            android:text = "share"
+            android:backgroundTint="#2F3136"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@drawable/mainbutton"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

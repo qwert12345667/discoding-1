@@ -30,6 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text = "hosting"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
                     android:textColor="#4AC9FF"
                     android:backgroundTint="#2F3136"
@@ -40,7 +41,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text = "main"
-                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                   android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:layout_weight="1"
                     android:background="@drawable/mainbutton"/>
@@ -48,6 +50,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textColor="#FFFFFF"
+                    android:textSize="18sp"
                     android:text = "share"
                     android:textAllCaps="false"
                     android:layout_weight="1"
@@ -78,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="15sp"
                     android:text="user님의 남은 호스팅 시간:"
                     android:textColor="#C8CACF"
                     android:textSize="16dp" />
@@ -89,7 +92,7 @@
                     android:layout_gravity="center"
                     android:text="06:01:07"
                     android:textColor="#4AC9FF"
-                    android:textSize="36dp" />
+                    android:textSize="36sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -115,7 +118,7 @@
                         android:layout_height="wrap_content"
                         android:text="10:00"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
+                        android:textSize="24sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
@@ -143,7 +146,7 @@
                         android:layout_height="wrap_content"
                         android:text="10:00"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
+                        android:textSize="24sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
@@ -186,7 +189,7 @@
                         android:layout_height="wrap_content"
                         android:text="10:00"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageView
@@ -201,7 +204,7 @@
                         android:layout_height="wrap_content"
                         android:text="₩3,000"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
@@ -230,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:text="10:00"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageView
@@ -245,7 +248,7 @@
                         android:layout_height="wrap_content"
                         android:text="₩4,000"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
@@ -274,7 +277,7 @@
                         android:layout_height="wrap_content"
                         android:text="10:00"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageView
@@ -289,7 +292,7 @@
                         android:layout_height="wrap_content"
                         android:text="₩5,000"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
@@ -332,7 +335,7 @@
                         android:layout_height="wrap_content"
                         android:text="커피 한잔 사주세요"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <TextView
@@ -341,7 +344,7 @@
                         android:layout_height="wrap_content"
                         android:text="₩2,000"
                         android:textColor="#FFFFFF"
-                        android:textSize="16dp"
+                        android:textSize="16sp"
                         android:textStyle="bold"/>
 
                     <ImageButton
